@@ -71,6 +71,23 @@ html {
     justify-content: center;
 }
 
+#hero #best-selling-btn {
+    background-color: #6b5151; 
+    color: white; 
+    padding: 12px 24px; 
+    border: none; 
+    border-radius: 5px;
+    font-size: 20px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    margin-top: 20px;  
+}
+
+#hero #best-seller-btn:hover {
+    background-color: #5e4a4a; 
+    transition: background-color 0.3s ease;
+}
+
 #hero h4 {
     text-decoration: underline;
     text-decoration-color: red;
